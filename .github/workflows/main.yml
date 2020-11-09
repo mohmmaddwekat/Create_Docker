@@ -32,7 +32,7 @@ jobs:
           
       - name: Docker build
         run: |
-          docker build project/routerst -t mohammeddw/product:latest
+          docker build /project -t mohammeddw/product:latest
       - name: Docker Push 
         run: |
           docker push mohammeddw/product:latest
