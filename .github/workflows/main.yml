@@ -32,7 +32,7 @@ jobs:
           
       - name: Docker build
         run: |
-          docker build ./ -t mohammeddw/python:1.0.0
+          docker build ./ -t mohammeddw/product .
       - name: Docker Push 
         run: |
-          docker push mohammeddw/python:1.0.0
+          docker push mohammeddw/product
